@@ -27,10 +27,10 @@
                 'text-align' : 'center',
                 'overflow' : 'hidden'
             });
-            // $obj.prepend('<img src="/images/loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
+            // $obj.prepend('<img src="loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
 
             $overlay = $obj.clone(true);
-            $overlay.html('<img src="images/loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
+            $overlay.html('<img src="loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
             $overlay.attr('id', 'view_overlay');
             $overlay.css({
                 'position' : 'absolute',
